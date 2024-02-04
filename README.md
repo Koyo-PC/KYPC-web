@@ -1,0 +1,2 @@
+# KYPC-web
+webサイト
