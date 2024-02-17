@@ -4,30 +4,20 @@
         <meta charset="utf-8">
         <title>KYPC : 甲陽学院高等学校PC部同好会</title>
         <meta name = "description" content = "KYPC : 甲陽学院高等学校PC部同好会です。">
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
     </head>
     <body>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="ennkaku.html">沿革</a></li>
-                    <li><a href="achievements.html">achieve</a></li>
-                </ul>
-            </nav>
-        </header>
-=======
-        <!--#include file="header.html" -->
+        <div id="header"></div>
         <main></main>
-        <!--#include file="footer.html" -->
->>>>>>> 54ae9a667cc418ea463d4de4b5b34dfa0e464e09
->>>>>>> 42367a7e288503603ed8db64c959341ac2159928
-=======
-        <iframe id = "header" src="header.html" frameborder="0"></iframe>
-        <main></main>
-        <iframe id = "footer" src="footer.html" frameborder="0"></iframe>
->>>>>>> c1c2e46335e8d8f2ee48b76cd39a5bd3154150c7
+        <div id="header"></div>
+        <script>
+            $(function() {
+              $("#header").load("header.html");
+              $("#footer").load("footer.html");
+            });
+        </script>
     </body>
 </html>
