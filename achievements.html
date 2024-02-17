@@ -4,9 +4,14 @@
         <meta charset="utf-8">
         <title>KYPC : 甲陽学院高等学校PC部同好会</title>
         <meta name = "description" content = "KYPC : 甲陽学院高等学校PC部同好会です。">
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/achieve.css">
     </head>
     <body>
+        <div id="header"></div>
         <div>PC同好会 実績
             <ul>
                  <li>2022年3月&nbsp;&nbsp;&nbsp;「全国中学高校Webコンテストにて「金賞」を受賞</li>
@@ -14,6 +19,13 @@
                  <li>2023年5月&nbsp;&nbsp;&nbsp;「競技プログラミング対抗戦 AtCoder Junior League」に参加</li>
                  <li>2023年9月&nbsp;&nbsp;&nbsp;「パソコン甲子園プログラミング部門 予選」に参加</li>
             </ul>
-        </div>    
+        </div>
+        <div id="footer"></div>
+        <script>
+            $(function() {
+              $("#header").load("header.html");
+              $("#footer").load("footer.html");
+            });
+        </script>
     </body>
 </html>
