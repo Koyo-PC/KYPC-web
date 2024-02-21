@@ -1,4 +1,11 @@
 @charset "utf-8";
+@font-face {
+    font-family: "test-first";
+    src: url('/font/logotypeCondense.otf') format('opentype');
+}
+body{
+    font-family: "test-first";
+}
 #header{
     width : 100%;
     margin: auto;
