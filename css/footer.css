@@ -1,7 +1,10 @@
 @charset "utf-8";
 .sns  {margin-left: auto;}
-.logo {width: 96px;
-height:96px ; }
+.footer-logo {
+    width: 96px;
+    height:96px ; 
+    margin:auto;
+}
 footer{
     text-align: center;
 }
