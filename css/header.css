@@ -10,7 +10,7 @@ header nav ul li {
     float: left;
     text-align: center;
     text-decoration: none;
-    background-color: rgba(177, 39, 39, 0.800);
+    background-color :skyblue;
     margin: 2px;
     border-radius: 15px;
 }
@@ -20,6 +20,12 @@ ul {
 header nav ul li a {
     text-decoration: none;
     color: black;
+    display: block;
+}
+header nav ul li a:hover{
+    font-size: larger;
+    font-weight: bolder;
+    box-shadow: inset;
 }
 .header-logo {
     margin: auto;

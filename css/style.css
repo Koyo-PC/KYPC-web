@@ -6,6 +6,9 @@
 body{
     font-family: "test-first";
 }
+main{
+    margin: 30px;
+}
 #header{
     width : 100%;
     margin: auto;
