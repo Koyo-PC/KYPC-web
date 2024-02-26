@@ -4,40 +4,51 @@
     display:block;
     clear:both;
 }
-header nav h1 {
-    margin-top: 0px;
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 header nav ul {
-    margin-left: 30px;
+    margin: 0;
+    margin-right: 10px;
 }
 header nav ul li {
     width: 200px;
-    height : 30px;
+    height : 70px;
     float: left;
     text-align: center;
     text-decoration: none;
-    margin: 2px;
 }
 ul {
     list-style: none;
 }
 header nav ul li a {
     text-decoration: none;
+    font-size: larger;
     color: black;
     display: block;
+    height: 50px;
+    padding-top: 20px;
 }
 header nav ul li a:hover{
-    font-size: larger;
+    /* font-size: larger; */
     font-weight: bolder;
-    box-shadow: inset;
+    background-color: rgb(0, 90, 240);
+    color: white;
 }
 .header-image {
-    padding-top: 0px;
+    margin-left: 10px;
+    margin-top: 5px;
     display: flex;
     float: left;
 }
 .header-title {
     display: flex;
     float: left;
-    margin-right: 30px;
+    
+}
+#header-tit{
+    margin-top: 0px;
+    padding-top: 10px;
 }
