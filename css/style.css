@@ -22,13 +22,16 @@ main{
     top: 0;
     z-index: 3;
     background-color: whitesmoke;
-    border-bottom: 5px solid rgb(0, 90, 240);
+    border-bottom: 5px solid rgb(0, 90, 200);
 }
 #footer{
     width : 100%;
     margin: 0px;
     padding: 0px;
     background-color: dimgray;
+}
+.no-font{
+    font-family: 'Courier New', Courier, monospace;
 }
 .main-description{
     text-align: center;
