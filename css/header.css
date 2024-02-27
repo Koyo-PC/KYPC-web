@@ -57,6 +57,10 @@ header nav ul li a:hover{
     #header-tit{
         font-size: 40px;
     }
+    h1{
+        margin-bottom: 0;
+        font-size: larger;
+    }
     header nav{
         display: none;
     }
@@ -67,6 +71,7 @@ header nav ul li a:hover{
         right : 10px;
         text-align: center;
         width: 800px;
+        float : right;
     }
     
 .sm-nav ul {
@@ -83,12 +88,11 @@ header nav ul li a:hover{
 .sm-nav ul li a {
     text-decoration: none;
     font-size: larger;
-    /* color: black; */
     color: rgb(0, 90, 200);
     display: block;
-    height: 47px;
+    height: 62px;
     padding-top: 20px;
-    font-size: 25px;
+    font-size: 30px;
 }
 .sm-nav ul li a:hover{
     /* font-size: larger; */
