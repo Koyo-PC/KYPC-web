@@ -11,8 +11,3 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger;
 }
-@media screen and (max-width: 1012px) {
-    #ennkaku-manifest{
-        display: none;
-    }
-}
