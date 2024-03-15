@@ -1,5 +1,12 @@
 @charset "utf-8";
-.sns  {margin-left: auto;}
+.sns  {
+    text-align: center;
+    height: 100px;
+    justify-content: center;
+}
+footer a {
+    margin : 0 10px;
+}
 .footer-logo {
     width: 96px;
     height:96px ; 
@@ -8,4 +15,5 @@
 footer{
     padding: 10px;
     text-align: center;
+    
 }

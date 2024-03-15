@@ -1,17 +1,18 @@
 @charset "utf-8";
 .twitter-timeline{
-    width : 500px;
+    width : 400px;
     height: 500px;
-    overflow-y: scroll;
 }
 #news{
     margin: 0 20px;
-}
-.notice{
-    float: left;
-    width: 400px;
     height: 500px;
 }
-.twitter{
+#notice{
     float: left;
+    width: 50%;
+    height: 500px;
+}
+#twitter{
+    float: left;
+    width : 50%;
 }
