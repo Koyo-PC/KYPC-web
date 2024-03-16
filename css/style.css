@@ -41,3 +41,6 @@ main{
 .main-description{
     text-align: center;
 }
+a{
+    text-decoration: none;
+}
