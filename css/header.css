@@ -20,7 +20,7 @@ ul {
 }
 header nav ul li a {
     text-decoration: none;
-    font-size: larger;
+    font-size: 1.7rem;
     /* color: black; */
     color: rgb(0, 90, 200);
     display: block;
