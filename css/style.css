@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face {
     font-family: "test-first";
-    src: url('/font/logotypeCondense.otf') format('opentype');
+    src: url('font\logotypeCondense.otf') format('opentype');
 }
 .clear-fix::after{
     content: "";
